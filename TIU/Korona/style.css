@@ -1,0 +1,193 @@
+
+body{
+   margin: 0; 
+   font-family: Arial, Helvetica, sans-serif;
+   scroll-behavior: smooth;
+}
+
+#obal{
+  display: flex;
+  justify-content: center;
+}
+
+div{
+   border: white solid 10px;
+}
+
+h2{
+   font-size: 45px;
+   color: white;
+
+}
+
+ul{
+   list-style-type: none;
+   padding-left: 0;
+}
+
+li{
+   padding: 3px;
+}
+
+a{
+   text-decoration: none;
+   color: black;
+   font-size: 25px;
+   margin: 0 5px;
+}
+
+
+
+#parent{
+   margin: 0 auto;
+   display: grid;
+   grid-template-columns: repeat(7, 200px);
+   grid-template-rows:  repeat(7, 200px);
+}
+
+#logo{
+   grid-area: 1 / 1 / 2 / 2; 
+   background-color:white;
+}
+
+#logo img{
+   width: 180px;
+   height: 180px;
+}
+
+#nazov{
+   grid-area: 1 / 2 / 2 / 5;
+   display: flex;
+   justify-content:center;
+   align-items:center;
+   font-size: 40px;
+   color: orange;
+   background-color: white;
+}
+
+#navabar{
+    grid-area: 1 / 5 / 2 / 8;
+    background-color: white; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#korona{
+    grid-area: 2 / 1 / 4 / 4; 
+    background-color: orange;
+    padding: 0px 20px;
+    font-size: 25px;
+    color: white;
+    line-height: 40px;
+}
+
+#obrContainer1{
+    grid-area: 2 / 4 / 3 / 5; 
+}
+
+#obrContainer1 img{
+   width: 180px;
+   height: 180px;
+}
+ 
+#obrContainer2{
+    grid-area: 3 / 4 / 4 / 5; 
+}
+
+#obrContainer2 img{
+   width: 180px;
+   height: 180px;
+}
+
+#priznaky{
+    grid-area: 2 / 5 / 4 / 8; 
+    background-color: orange;
+    padding: 0px 20px;
+    color: white;
+    font-size: 25px;
+}
+
+ 
+#neochrani{
+    grid-area: 4 / 1 / 6 / 3; 
+    background-color: orange;
+    padding: 0px 20px;
+    color: white;
+    font-size: 25px;
+    line-height: 40px;
+
+ }
+
+ #prevencia{
+    grid-area: 4 / 3 / 7 / 6; 
+    background-color: orange;
+    padding: 0 20px;
+    color: white;
+    font-size: 30px;
+    line-height: 45px;
+ }
+
+ #obrContainer3{
+    grid-area: 4 / 6 / 5 / 7; 
+    
+}
+#obrContainer3 img{
+   width: 180px;
+   height: 180px;
+}
+
+ #obrContainer5{
+    grid-area: 6 / 1 / 8 / 3; 
+    
+ }
+
+ #obrContainer4 img{
+   width: 180px;
+   height: 180px;
+}
+
+ #obrContainer5 img{
+    width: 370px;
+    height: 370px;
+ }
+ 
+ #obrContainer8{
+    grid-area: 7 / 3 / 8 / 4; 
+    
+ }
+
+ #obrContainer8 img{
+   width: 180px;
+   height: 180px;
+}
+
+ #obrContainer6{
+    grid-area: 7 / 4 / 8 / 5; 
+    
+ }
+ #obrContainer6 img{
+   width: 180px;
+   height: 180px;
+}
+
+ #obrContainer7{
+    grid-area: 7 / 5 / 8 / 6; 
+    
+ }
+
+ #obrContainer7 img{
+   width: 180px;
+   height: 180px;
+}
+
+ #meme{
+    grid-area: 5 / 6 / 8 / 8; 
+    background-color: orange;
+    padding: 0 20px;
+    color: white;
+    font-size: 30px;
+    line-height: 45px;
+ }
+
+ 
